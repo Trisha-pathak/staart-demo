@@ -1,0 +1,41 @@
+.comp_first_input {
+    height: 60px;
+    width: 168px;
+}
+
+.comp_input {
+    width: 55px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.textInputWrapper {
+    position: relative;
+}
+
+input {
+    width: 100px;
+}
+
+.text_input {
+    width: 100%;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input_color {
+    background-color: lightgray;
+    font-size: 10px;
+}
+
+.rightLabel {
+    position: absolute;
+    right: 3px;
+    font-size: 0.5em;
+    color: #444;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
